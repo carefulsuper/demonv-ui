@@ -1,24 +1,18 @@
-# demon-ui
+# demonv-ui
 
-## Project setup
+## 引入
 ```
-npm install
+npm install demonv-ui
 ```
+## 引用
+```javascript
+//全部引入
+import 'demonv-ui/dist/css/index.css';
+import MUI from' demonv-ui '
+Vue.use(MUI)
+//按需引入
+import 'demonv-ui/dist/css/card.css
+import { mCard } from' demonv-ui '
+Vue.use(mCard)
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
